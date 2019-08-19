@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23206B6922E63D8F00BBA034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23206B6822E63D8F00BBA034 /* AppDelegate.swift */; };
+		23206B6E22E63D8F00BBA034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23206B6C22E63D8F00BBA034 /* Main.storyboard */; };
+		23206B7022E63D9300BBA034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23206B6F22E63D9300BBA034 /* Assets.xcassets */; };
+		23206B7322E63D9300BBA034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23206B7122E63D9300BBA034 /* LaunchScreen.storyboard */; };
+		23206B7B22E63DB300BBA034 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23206B7A22E63DB300BBA034 /* MainViewController.swift */; };
+		23206B8522E6E19A00BBA034 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23206B8422E6E19A00BBA034 /* UIColorExt.swift */; };
+		23206B8722E6E1AF00BBA034 /* BeepCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23206B8622E6E1AF00BBA034 /* BeepCircleView.swift */; };
+		234B572222E6EC3D00064A7E /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 234B572122E6EC3D00064A7E /* beep.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23206B6522E63D8F00BBA034 /* OminousBeepingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OminousBeepingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23206B6822E63D8F00BBA034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23206B6D22E63D8F00BBA034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23206B6F22E63D9300BBA034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23206B7222E63D9300BBA034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23206B7422E63D9300BBA034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23206B7A22E63DB300BBA034 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		23206B8422E6E19A00BBA034 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		23206B8622E6E1AF00BBA034 /* BeepCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepCircleView.swift; sourceTree = "<group>"; };
+		234B572122E6EC3D00064A7E /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23206B6222E63D8F00BBA034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23206B5C22E63D8F00BBA034 = {
+			isa = PBXGroup;
+			children = (
+				23206B6722E63D8F00BBA034 /* OminousBeepingApp */,
+				23206B6622E63D8F00BBA034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23206B6622E63D8F00BBA034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23206B6522E63D8F00BBA034 /* OminousBeepingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23206B6722E63D8F00BBA034 /* OminousBeepingApp */ = {
+			isa = PBXGroup;
+			children = (
+				23206B8822E6E1D800BBA034 /* Res */,
+				23206B8222E6E18300BBA034 /* Utils */,
+				23206B8322E6E18B00BBA034 /* Views */,
+				23206B6822E63D8F00BBA034 /* AppDelegate.swift */,
+				23206B7A22E63DB300BBA034 /* MainViewController.swift */,
+				23206B6C22E63D8F00BBA034 /* Main.storyboard */,
+				23206B6F22E63D9300BBA034 /* Assets.xcassets */,
+				23206B7122E63D9300BBA034 /* LaunchScreen.storyboard */,
+				23206B7422E63D9300BBA034 /* Info.plist */,
+			);
+			path = OminousBeepingApp;
+			sourceTree = "<group>";
+		};
+		23206B8222E6E18300BBA034 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				23206B8422E6E19A00BBA034 /* UIColorExt.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		23206B8322E6E18B00BBA034 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23206B8622E6E1AF00BBA034 /* BeepCircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23206B8822E6E1D800BBA034 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				234B572122E6EC3D00064A7E /* beep.wav */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23206B6422E63D8F00BBA034 /* OminousBeepingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23206B7722E63D9300BBA034 /* Build configuration list for PBXNativeTarget "OminousBeepingApp" */;
+			buildPhases = (
+				23206B6122E63D8F00BBA034 /* Sources */,
+				23206B6222E63D8F00BBA034 /* Frameworks */,
+				23206B6322E63D8F00BBA034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OminousBeepingApp;
+			productName = OminousBeepingApp;
+			productReference = 23206B6522E63D8F00BBA034 /* OminousBeepingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23206B5D22E63D8F00BBA034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = jake;
+				TargetAttributes = {
+					23206B6422E63D8F00BBA034 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 23206B6022E63D8F00BBA034 /* Build configuration list for PBXProject "OminousBeepingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23206B5C22E63D8F00BBA034;
+			productRefGroup = 23206B6622E63D8F00BBA034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23206B6422E63D8F00BBA034 /* OminousBeepingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23206B6322E63D8F00BBA034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234B572222E6EC3D00064A7E /* beep.wav in Resources */,
+				23206B7322E63D9300BBA034 /* LaunchScreen.storyboard in Resources */,
+				23206B7022E63D9300BBA034 /* Assets.xcassets in Resources */,
+				23206B6E22E63D8F00BBA034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23206B6122E63D8F00BBA034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23206B7B22E63DB300BBA034 /* MainViewController.swift in Sources */,
+				23206B8522E6E19A00BBA034 /* UIColorExt.swift in Sources */,
+				23206B6922E63D8F00BBA034 /* AppDelegate.swift in Sources */,
+				23206B8722E6E1AF00BBA034 /* BeepCircleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23206B6C22E63D8F00BBA034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23206B6D22E63D8F00BBA034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23206B7122E63D9300BBA034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23206B7222E63D9300BBA034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23206B7522E63D9300BBA034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23206B7622E63D9300BBA034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23206B7822E63D9300BBA034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UB3J36Z984;
+				INFOPLIST_FILE = OminousBeepingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.OminousBeepingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23206B7922E63D9300BBA034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UB3J36Z984;
+				INFOPLIST_FILE = OminousBeepingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.OminousBeepingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23206B6022E63D8F00BBA034 /* Build configuration list for PBXProject "OminousBeepingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23206B7522E63D9300BBA034 /* Debug */,
+				23206B7622E63D9300BBA034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23206B7722E63D9300BBA034 /* Build configuration list for PBXNativeTarget "OminousBeepingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23206B7822E63D9300BBA034 /* Debug */,
+				23206B7922E63D9300BBA034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23206B5D22E63D8F00BBA034 /* Project object */;
+}
